@@ -1,0 +1,39 @@
+{
+  "name": "ewallet",
+  "version": "1.0.0",
+  "description": "wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev-server": "nodemon --exec babel-node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ingabire2/ewallet.git"
+  },
+  "author": "ingabire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ingabire2/ewallet/issues"
+  },
+  "homepage": "https://github.com/Ingabire2/ewallet#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0",
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/node": "^7.18.9",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/register": "^7.18.9",
+    "@babel/plugin-transform-runtime": "^7.18.6",
+    "body-parser": "^1.20.0",
+    "nodemon": "^2.0.18",
+    "cors":"^2.8.5",
+    "jsonwebtoken":"^8.5.1",
+    "bcrypt":"^5.0.1",
+    "express-validator":"^6.14.2"
+    
+  }
+}
