@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import config from '../helpers/config';
 
 const connectDb = async () => {
-  const URL = config.MONGO_URL || 'mongodb://127.0.0.1:27017/wallet'
+  const URL = config.MONGO_URL || 'mongodb://127.0.0.1:27017/ewallet'
   await mongoose.connect(URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
